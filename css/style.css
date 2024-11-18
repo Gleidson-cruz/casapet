@@ -8,34 +8,36 @@
 }
 
 .navbar {
-  height: 70px;
-  font-size: 25px;
+  height: auto;
+  font-size: 1.5rem; /* Usando rem para responsividade */
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
   background-color: #fff;
 }
 
-.navbar-nav {
-    background-color: #fff;
+.navbar-brand figure {
+    width: auto;
+    height: auto;
 }
 
 .inicio {
     background-image: url(../assets/dog-bk.png);
     background-size: cover;
-    background-position: 0cm;
+    background-position: center; /* Centraliza a imagem de fundo */
+    height: 100vh;
 }
 
 .titulo-inicio {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 55px;
+    font-size: 4rem; /* Usando rem para responsividade */
     color: #fff;
 }
 
 .texto-inicio {
-    font-size: 25px;
+    font-size: 2.5rem; /* Usando rem para responsividade */
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -44,11 +46,47 @@
 
 .text-btn-inicio {
     background-color: #A248C1;
-    border-radius: 13px;
+    border-radius: 20px;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.5rem; /* Usando rem para responsividade */
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-style: normal;
 }
 
+/* Media Queries para ajustar tamanhos em diferentes telas */
+@media (max-width: 1200px) {
+    .titulo-inicio {
+        font-size: 3.5rem; /* Ajuste para telas menores */
+    }
+    .texto-inicio {
+        font-size: 2rem; /* Ajuste para telas menores */
+    }
+    .text-btn-inicio {
+        font-size: 1.25rem; /* Ajuste para telas menores */
+    }
+}
+
+@media (max-width: 992px) {
+    .titulo-inicio {
+        font-size: 3rem; /* Ajuste para telas menores */
+    }
+    .texto-inicio {
+        font-size: 1.75rem; /* Ajuste para telas menores */
+    }
+    .text-btn-inicio {
+        font-size: 1.1rem; /* Ajuste para telas menores */
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-inicio {
+        font-size: 2.5rem; /* Ajuste para telas menores */
+    }
+    .texto-inicio {
+        font-size: 1.5rem; /* Ajuste para telas menores */
+    }
+    .text-btn-inicio {
+        font-size: 1rem; /* Ajuste para telas menores */
+    }
+}
