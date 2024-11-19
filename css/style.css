@@ -47,17 +47,18 @@
 
 .text-btn-inicio {
   background-color: #A248C1;
-  border-radius: 20px;
+  border-radius: 17px;
   color: #fff;
   font-size: 23px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-style: normal;
+  text-decoration: none;
 }
 
 .content-text h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 26px;
+  font-size: 27px;
   font-weight: bold;
   color: #000;
 }
@@ -71,4 +72,43 @@
 .content-img figure img {
   width: 450px;
   height: auto;
+}
+
+
+.apoiar {
+    background-image: url(../assets/cat-bk.png);
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+}
+
+.apoiar h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 59px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.apoiar h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.apoiar p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.apoiar a {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #A248C1;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
 }
