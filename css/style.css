@@ -5,88 +5,70 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
+
 
 .navbar {
   height: auto;
-  font-size: 1.5rem; /* Usando rem para responsividade */
+  font-size: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
-  background-color: #fff;
+  background-color: #ffffff23;
 }
 
 .navbar-brand figure {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }
 
 .inicio {
-    background-image: url(../assets/dog-bk.png);
-    background-size: cover;
-    background-position: center; /* Centraliza a imagem de fundo */
-    height: 100vh;
+  background-image: url(../assets/dog-bk.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .titulo-inicio {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 4rem; /* Usando rem para responsividade */
-    color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 60px;
+  color: #fff;
 }
 
 .texto-inicio {
-    font-size: 2.5rem; /* Usando rem para responsividade */
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #fff;
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #fff;
 }
 
 .text-btn-inicio {
-    background-color: #A248C1;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 1.5rem; /* Usando rem para responsividade */
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+  background-color: #A248C1;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
 }
 
-/* Media Queries para ajustar tamanhos em diferentes telas */
-@media (max-width: 1200px) {
-    .titulo-inicio {
-        font-size: 3.5rem; /* Ajuste para telas menores */
-    }
-    .texto-inicio {
-        font-size: 2rem; /* Ajuste para telas menores */
-    }
-    .text-btn-inicio {
-        font-size: 1.25rem; /* Ajuste para telas menores */
-    }
+.content-text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #000;
 }
 
-@media (max-width: 992px) {
-    .titulo-inicio {
-        font-size: 3rem; /* Ajuste para telas menores */
-    }
-    .texto-inicio {
-        font-size: 1.75rem; /* Ajuste para telas menores */
-    }
-    .text-btn-inicio {
-        font-size: 1.1rem; /* Ajuste para telas menores */
-    }
+.content-text p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
 }
 
-@media (max-width: 768px) {
-    .titulo-inicio {
-        font-size: 2.5rem; /* Ajuste para telas menores */
-    }
-    .texto-inicio {
-        font-size: 1.5rem; /* Ajuste para telas menores */
-    }
-    .text-btn-inicio {
-        font-size: 1rem; /* Ajuste para telas menores */
-    }
+.content-img figure img {
+  width: 450px;
+  height: auto;
 }
