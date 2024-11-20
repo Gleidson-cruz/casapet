@@ -112,3 +112,60 @@
     text-decoration: none;
     border-radius: 10px;
 }
+
+.atuacao h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 59px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.atuacao img {
+  width: 487px;
+  height: 73px;
+}
+
+.atuacao h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  color: #050505;
+}
+
+.atuacao p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+footer {
+  background-color: #A248C1;
+}
+
+.icon-footer {
+  width: 38px;
+  height: 33px;
+  filter: invert(100%);
+}
+
+footer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: #fff;
+}
+
+footer a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #fff;
+  text-decoration: none;
+}
