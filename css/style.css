@@ -8,10 +8,9 @@
   overflow-x: hidden;
 }
 
-
 .navbar {
   height: auto;
-  font-size: 30px;
+  font-size: 1.875rem; /* 30px */
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -33,12 +32,12 @@
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-style: normal;
-  font-size: 60px;
+  font-size: 3.75rem; /* 60px */
   color: #fff;
 }
 
 .texto-inicio {
-  font-size: 33px;
+  font-size: 2.0625rem; /* 33px */
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -47,9 +46,9 @@
 
 .text-btn-inicio {
   background-color: #A248C1;
-  border-radius: 17px;
+  border-radius: 1.0625rem; /* 17px */
   color: #fff;
-  font-size: 23px;
+  font-size: 1.4375rem; /* 23px */
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -58,13 +57,13 @@
 
 .content-text h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 27px;
+  font-size: 1.6875rem; /* 27px */
   font-weight: bold;
   color: #000;
 }
 
 .content-text p {
-  font-size: 16px;
+  font-size: 1rem; /* 16px */
   font-family: "Roboto", sans-serif;
   font-weight: 100;
 }
@@ -73,7 +72,6 @@
   width: 450px;
   height: auto;
 }
-
 
 .apoiar {
     background-image: url(../assets/cat-bk.png);
@@ -84,38 +82,38 @@
 
 .apoiar h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 59px;
+    font-size: 3.6875rem; /* 59px */
     font-weight: bold;
     color: #ffffff;
 }
 
 .apoiar h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 26px;
+    font-size: 1.625rem; /* 26px */
     font-weight: bold;
     color: #ffffff;
 }
 
 .apoiar p {
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px */
     font-weight: 100;
     color: #ffffff;
 }
 
 .apoiar a {
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem; /* 15px */
     font-weight: bold;
     background-color: #A248C1;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 0.625rem; /* 10px */
 }
 
 .atuacao h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 59px;
+  font-size: 3.6875rem; /* 59px */
   font-weight: bold;
   color: #000000;
 }
@@ -127,14 +125,14 @@
 
 .atuacao h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 27px;
+  font-size: 1.6875rem; /* 27px */
   font-weight: bold;
   color: #050505;
-}
+ }
 
 .atuacao p {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   font-weight: 100;
 }
 
@@ -143,28 +141,28 @@ footer {
 }
 
 .icon-footer {
-  width: 38px;
-  height: 33px;
+  width: 2.375rem; /* 38px */
+  height: 2.0625rem; /* 33px */
   filter: invert(100%);
 }
 
 footer h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 27px;
+  font-size: 1.6875rem; /* 27px */
   font-weight: bold;
   color: #ffffff;
 }
 
 footer p {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   font-weight: 100;
   color: #fff;
 }
 
 footer a {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   font-weight: bolder;
   color: #fff;
   text-decoration: none;

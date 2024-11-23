@@ -1,0 +1,205 @@
+@media (max-width: 575.98px) {
+    .navbar {
+      font-size: 1.5rem;
+    }
+    .titulo-inicio {
+      font-size: 3rem;
+    }
+    .texto-inicio {
+      font-size: 1.5rem;
+    }
+    .text-btn-inicio {
+      font-size: 1.2rem;
+    }
+    .content-text h2 {
+      font-size: 1.5rem;
+    }
+    .content-text p {
+      font-size: 0.875rem;
+    }
+    .apoiar h1 {
+      font-size: 2.5rem;
+    }
+    .apoiar h2 {
+      font-size: 1.5rem;
+    }
+    .apoiar p {
+      font-size: 1rem;
+    }
+    .apoiar a {
+      font-size: 0.875rem;
+    }
+    .atuacao h1 {
+      font-size: 2.5rem;
+    }
+    .atuacao h2 {
+      font-size: 1.5rem;
+    }
+    .atuacao p {
+      font-size: 1rem;
+    }
+    footer h2 {
+      font-size: 1.5rem;
+    }
+    footer p {
+      font-size: 1rem;
+    }
+    footer a {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar {
+      font-size: 1.75rem;
+    }
+    .titulo-inicio {
+      font-size: 3.5rem;
+    }
+    .texto-inicio {
+      font-size: 1.75rem;
+    }
+    .text-btn-inicio {
+      font-size: 1.4rem;
+    }
+    .content-text h2 {
+      font-size: 1.75rem;
+    }
+    .content-text p {
+      font-size: 1rem;
+    }
+    .apoiar h1 {
+      font-size: 2.75rem;
+    }
+    .apoiar h2 {
+      font-size: 1.75rem;
+    }
+    .apoiar p {
+      font-size: 1.125rem;
+    }
+    .apoiar a {
+      font-size: 0.9375rem;
+    }
+    .atuacao h1 {
+      font-size: 2.75rem;
+    }
+    .atuacao h2 {
+      font-size: 1.75rem;
+    }
+    .atuacao p {
+      font-size: 1.125rem;
+    }
+    footer h2 {
+      font-size: 1.75rem;
+    }
+    footer p {
+      font-size: 1.125rem;
+    }
+    footer a {
+      font-size: 1.125rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+      font-size: 2rem;
+    }
+    .titulo-inicio {
+      font-size: 4rem;
+    }
+    .texto-inicio {
+      font-size: 2rem;
+    }
+    .text-btn-inicio {
+      font-size: 1.6rem;
+    }
+    .content-text h2 {
+      font-size: 2rem;
+    }
+    .content-text p {
+      font-size: 1.125rem;
+    }
+    .apoiar h1 {
+      font-size: 3rem;
+    }
+    .apoiar h2 {
+      font-size: 2rem;
+    }
+    .apoiar p {
+      font-size: 1.125rem;
+    }
+    .apoiar a {
+      font-size: 1rem;
+    }
+    .atuacao h1 {
+      font-size: 3rem;
+    }
+    .atuacao h2 {
+      font-size: 2rem;
+    }
+    .atuacao p {
+      font-size: 1.125rem;
+    }
+    footer h2 {
+      font-size: 2rem;
+    }
+    footer p {
+      font-size: 1.125rem;
+    }
+    footer a {
+      font-size: 1.125rem;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar {
+      font-size: 2.25rem;
+    }
+    .titulo-inicio {
+      font-size: 4.5rem;
+    }
+    .texto-inicio {
+      font-size: 2.25rem;
+    }
+    .text-btn-inicio {
+      font-size: 1.8rem;
+    }
+    .content-text h2 {
+      font-size: 2.25rem;
+    }
+    .content-text p {
+   font-size: 1.25rem;
+    }
+    .apoiar h1 {
+      font-size: 3.25rem;
+    }
+    .apoiar h2 {
+      font-size: 2.25rem;
+    }
+    .apoiar p {
+      font-size: 1.25rem;
+    }
+    .apoiar a {
+      font-size: 1.125rem;
+    }
+    .atuacao h1 {
+      font-size: 3.25rem;
+    }
+    .atuacao h2 {
+      font-size: 2.25rem;
+    }
+    .atuacao p {
+      font-size: 1.25rem;
+    }
+    footer h2 {
+      font-size: 2.25rem;
+    }
+    footer p {
+      font-size: 1.25rem;
+    }
+    footer a {
+      font-size: 1.25rem;
+    }
+  }
+  
+
