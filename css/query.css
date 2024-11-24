@@ -201,3 +201,20 @@
     font-size: 1.25rem;
   }
 }
+
+@media (max-width: 767.98px) {
+  .apoiar {
+    background-image: url(../assets/cat-bk-mobile.webp);
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+  }
+
+  .inicio {
+    background-image: url(../assets/dog-bk-mobile.webp);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+

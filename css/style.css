@@ -27,7 +27,7 @@
 }
 
 .inicio {
-  background-image: url(../assets/dog-bk.png);
+  background-image: url(../assets/dog-bk.webp);
   background-size: cover;
   background-position: center;
 }
@@ -84,7 +84,7 @@
 }
 
 .apoiar {
-    background-image: url(../assets/cat-bk.png);
+    background-image: url(../assets/cat-bk.webp);
     background-size: cover;
     background-position: center;
     overflow-y: hidden;
