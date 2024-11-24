@@ -49,11 +49,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto gap-3">
-              <a class="nav-link active" aria-current="page" href="#">Início</a>
-              <a class="nav-link" href="#">Sobre nós</a>
-              <a class="nav-link" href="#">Apoiar</a>
-              <a class="nav-link" href="#">Atuação</a>
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link active" aria-current="page" href="#inicio"
+                >Início</a
+              >
+              <a class="nav-link" href="#sobre">Sobre nós</a>
+              <a class="nav-link" href="#apoiar">Apoiar</a>
+              <a class="nav-link" href="#atuacao">Atuação</a>
+              <a class="nav-link" href="#footer">Contato</a>
             </div>
           </div>
         </div>
@@ -123,14 +125,10 @@
               />
             </figure>
           </div>
-
         </div>
 
-
-
-
         <div
-          class="row align-items-center justify-content-around d-md-none d-flex"
+          class="row container align-items-center justify-content-around d-md-none d-flex"
         >
           <div class="content-text col-12 text-center">
             <div class="content-img col-12">
@@ -156,7 +154,7 @@
           </div>
         </div>
 
-        <div class="row container justify-content-around align-items-start">
+        <div class="row container justify-content-around align-items-start p-0">
           <div class="content-text col-12 col-md-5 text-center text-md-start">
             <h2>Como fazemos</h2>
             <p>
@@ -214,12 +212,6 @@
               a adoção responsável. Junte-se a nós e faça parte dessa
               transformação!
             </p>
-
-            <a
-              href="#"
-              class="px-3 py-2 d-none d-md-flex col-5 text-nowrap"
-              >Faça uma doação</a
-            >
           </div>
           <div class="content-text-apoiar my-3 pb-3 col-5">
             <h2 class="my-3">Seja um voluntário</h2>
@@ -232,14 +224,26 @@
               toda a diferença. Venha fazer parte da nossa equipe e ajude-nos a
               criar um futuro melhor para os nossos amigos de quatro patas!
             </p>
+          </div>
 
-            <a href="#" class="px-3 py-2 d-none d-md-flex col-5 text-nowrap"
-              >Seja um voluntário</a
-            >
+          <div class="container row d-flex justify-content-around align-items-start ">
+            <div class="col-5 m-0 p-0">
+              <a
+                href="#"
+                class="bnt-apoio px-3 py-2 d-none d-md-flex col-4 text-nowrap d-flex justify-content-center align-items-start"
+                >Faça uma doação</a
+              >              
+            </div>
+            <div class="col-5">
+              <a
+                href="#"
+                class="bnt-apoio px-3 py-2 d-none d-md-flex col-4 text-nowrap d-flex justify-content-center align-items-start"
+                >Seja um voluntário</a
+              >              
+            </div>
           </div>
         </div>
       </div>
-
 
       <div class="container p-0 m-0 d-collumn d-md-none">
         <div class="title-apoiar row text-center mb-3">
@@ -248,7 +252,7 @@
         <div
           class="content-apoiar row align-items-start justify-content-around"
         >
-          <div class="content-text-apoiar my-3 pb-3 col-12 col-md-5">
+          <div class="content-text-apoiar my-3 pb-3 col-12">
             <h2 class="my-3 text-center">Fazendo uma doação</h2>
             <p class="pb-4 text-center">
               Apoiar a Casa Pet é uma forma poderosa de fazer a diferença na
@@ -263,13 +267,14 @@
             <div
               class="d-md-none d-flex justify-content-center align-items-center"
             >
-              <a href="#" class="px-3 py-2 col-5 text-nowrap"
+              <a
+                href="#"
+                class="bnt-apoio px-3 py-2 col-5 text-nowrap text-center"
                 >Faça uma doação</a
               >
             </div>
-
           </div>
-          <div class="content-text-apoiar my-3 pb-3 col-12 col-md-5">
+          <div class="content-text-apoiar my-3 pb-3 col-12">
             <h2 class="my-3 text-center">Seja um voluntário</h2>
             <p class="pb-4 text-center">
               Seja um agente de mudança! Ao se tornar um voluntário da Casa Pet,
@@ -283,15 +288,15 @@
             <div
               class="d-md-none d-flex justify-content-center align-items-center"
             >
-              <a href="#" class="px-3 py-2 col-5 text-nowrap"
+              <a
+                href="#"
+                class="bnt-apoio px-3 py-2 col-5 text-nowrap text-center"
                 >Seja um voluntário</a
               >
             </div>
           </div>
         </div>
       </div>
-
-
     </main>
 
     <main
@@ -418,6 +423,7 @@
     </main>
 
     <footer
+      id="footer"
       class="container-fluid justify-content-start align-items-center"
       style="min-height: 43vh"
     >
@@ -433,21 +439,29 @@
           <div
             class="row d-flex flex-row justify-content-center align-items-center gap-2"
           >
-            <img
-              src="./assets/email-icon.svg"
-              alt="Email icon"
-              class="col-3 col-md-2 icon-footer"
-            />
-            <img
-              src="./assets/instagram-icon.svg"
-              alt="Instagram icon"
-              class="col-3 col-md-2  icon-footer"
-            />
-            <img
-              src="./assets/facebook-icon.svg"
-              alt="Facebook icon"
-              class="col-3 col-md-2  icon-footer"
-            />
+            <a href="#" target="_blanck" class="link-footer-img col-3 col-md-2">
+              <img
+                src="./assets/email-icon.svg"
+                alt="Email icon"
+                class="icon-footer"
+              />
+            </a>
+
+            <a href="#" target="_blanck" class="link-footer-img col-3 col-md-2">
+              <img
+                src="./assets/instagram-icon.svg"
+                alt="Instagram icon"
+                class="icon-footer"
+              />
+            </a>
+
+            <a href="#" target="_blanck" class="link-footer-img col-3 col-md-2">
+              <img
+                src="./assets/facebook-icon.svg"
+                alt="Facebook icon"
+                class="icon-footer"
+              />
+            </a>
           </div>
         </div>
 
@@ -457,10 +471,10 @@
             <p class="my-0 py-0">São lourenço da mata - PE</p>
             <p>CNPJ 00.000.000/0000-00</p>
           </div>
-          <div class="row mt-5 mx-md-0 mb-2  text-md-start">
-            <a href="#">Adote</a>
-            <a href="#">Faça uma doação</a>
-            <a href="#">Seja um voluntário</a>
+          <div class="row mt-5 mx-md-0 mb-2 text-md-start">
+            <a href="#" class="link-footer">Adote</a>
+            <a href="#" class="link-footer">Faça uma doação</a>
+            <a href="#" class="link-footer">Seja um voluntário</a>
           </div>
         </div>
       </div>

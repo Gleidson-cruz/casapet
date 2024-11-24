@@ -8,8 +8,8 @@
   overflow-x: hidden;
 }
 
-h2 {
-  overflow: hidden;
+.content-text h2 {
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -58,6 +58,12 @@ h2 {
   font-style: normal;
   text-decoration: none;
 }
+
+.text-btn-inicio:hover {
+  background-color: #803997;
+  transition: 0.5s ease;
+}
+
 
 .content-text h2 {
   font-family: "Montserrat", sans-serif;
@@ -113,6 +119,12 @@ h2 {
     color: #ffffff;
     text-decoration: none;
     border-radius: 0.625rem; /* 10px */
+    text-align: center;
+}
+
+.apoiar a:hover{
+  background-color: #803997;
+  transition: 0.5s ease;
 }
 
 .atuacao h1 {
@@ -145,9 +157,18 @@ footer {
 }
 
 .icon-footer {
-  width: 38px;
-  height: 33px;
+  width: 35px;
+  height: 40px;
   filter: invert(100%);
+}
+
+.link-footer-img:hover .icon-footer {
+  filter:invert(80%)
+}
+
+.link-footer:hover {
+  text-decoration: underline;
+  transition: 1s ease;
 }
 
 footer h2 {
