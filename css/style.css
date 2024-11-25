@@ -12,9 +12,14 @@
   overflow-x: hidden;
 }
 
+.nav-link:hover {
+  color: #A248C1 !important;
+  transition: 0.2s ease !important;
+}
+
 .navbar {
   height: auto;
-  font-size: 1.875rem; /* 30px */
+  font-size: 1.875rem;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -36,12 +41,12 @@
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-style: normal;
-  font-size: 3.75rem; /* 60px */
+  font-size: 3.75rem;
   color: #fff;
 }
 
 .texto-inicio {
-  font-size: 2.0625rem; /* 33px */
+  font-size: 2.0625rem;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -50,9 +55,9 @@
 
 .text-btn-inicio {
   background-color: #A248C1;
-  border-radius: 1.0625rem; /* 17px */
+  border-radius: 1.0625rem;
   color: #fff;
-  font-size: 1.4375rem; /* 23px */
+  font-size: 1.4375rem;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -67,13 +72,13 @@
 
 .content-text h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6875rem; /* 27px */
+  font-size: 1.6875rem;
   font-weight: bold;
   color: #000;
 }
 
 .content-text p {
-  font-size: 1rem; /* 16px */
+  font-size: 1rem;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
 }
@@ -92,33 +97,33 @@
 
 .apoiar h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 3.6875rem; /* 59px */
+    font-size: 3.6875rem;
     font-weight: bold;
     color: #ffffff;
 }
 
 .apoiar h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.625rem; /* 26px */
+    font-size: 1.625rem;
     font-weight: bold;
     color: #ffffff;
 }
 
 .apoiar p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.125rem; /* 18px */
+    font-size: 1.125rem;
     font-weight: 100;
     color: #ffffff;
 }
 
 .apoiar a {
     font-family: "Roboto", sans-serif;
-    font-size: 0.9375rem; /* 15px */
+    font-size: 0.9375rem;
     font-weight: bold;
     background-color: #A248C1;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 0.625rem; /* 10px */
+    border-radius: 0.625rem;
     text-align: center;
 }
 
@@ -129,7 +134,7 @@
 
 .atuacao h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.6875rem; /* 59px */
+  font-size: 3.6875rem;
   font-weight: bold;
   color: #000000;
 }
@@ -141,14 +146,14 @@
 
 .atuacao h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6875rem; /* 27px */
+  font-size: 1.6875rem;
   font-weight: bold;
   color: #050505;
 }
 
 .atuacao p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem;
   font-weight: 100;
 }
 
@@ -173,21 +178,21 @@ footer {
 
 footer h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6875rem; /* 27px */
+  font-size: 1.6875rem;
   font-weight: bold;
   color: #ffffff;
 }
 
 footer p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem;
   font-weight: 100;
   color: #fff;
 }
 
 footer a {
   font-family: "Roboto", sans-serif;
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem;
   font-weight: bolder;
   color: #fff;
   text-decoration: none;

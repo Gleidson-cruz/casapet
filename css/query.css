@@ -218,3 +218,13 @@
 }
 
 
+@media (max-width: 400px) {
+  .titulo-inicio {
+    font-size: 2rem;
+  }
+  
+  .apoiar h1 {
+    font-size: 2rem;
+  }
+}
+
